@@ -1,5 +1,5 @@
 {% set name = "nitransforms" %}
-{% set version = "24.1.3" %}
+{% set version = "25.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nitransforms-{{ version }}.tar.gz
-  sha256: c8b8096076db935a463a6884157ed5ba845386de842b410304bae523d9d478b7
+  sha256: 6c6cab17207ca63137ccbca641359774f014c43a29150749d34690b3394ea798
 
 build:
   entry_points:
